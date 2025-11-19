@@ -13,7 +13,7 @@ local LocalPlayer = Players.LocalPlayer
 
 -- ===== Config =====
 -- رابط ملف JSON للأدمنز
-local ADMINS_JSON_URL = "https://raw.githubusercontent.com/AlphaBay00/Admin.json/main/admins%20(1).json"
+local ADMINS_JSON_URL = "https://github.com/AlphaBay00/Admin.json/blob/main/admins%20(1).json"
 
 local MAX_MESSAGES = 250
 local NOTIFY_DURATION = 3
@@ -1151,4 +1151,5 @@ end)
 
 -- التشغيل الأولي
 setupChatSystem()
+
 reapplyPersistent()
