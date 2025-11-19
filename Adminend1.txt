@@ -9,8 +9,8 @@ local Debris = game:GetService("Debris")
 local StarterGui = game:GetService("StarterGui")
 local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
-local LocalPlayer = Players.LocalPlayer
-
+local LocalPlayer = Players.LocalPlayer 
+print("done") 
 -- ===== Config =====
 -- رابط ملف JSON للأدمنز
 local ADMINS_JSON_URL = "https://github.com/AlphaBay00/Admin.json/blob/main/admins%20(1).json"
@@ -1151,5 +1151,4 @@ end)
 
 -- التشغيل الأولي
 setupChatSystem()
-
 reapplyPersistent()
